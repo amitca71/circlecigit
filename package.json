@@ -1,0 +1,26 @@
+{
+  "name": "githubactions",
+  "version": "1.0.0",
+  "description": "github actions",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitca71/githubactions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitca71/githubactions/issues"
+  },
+  "homepage": "https://github.com/amitca71/githubactions#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "mocha": "^8.3.2",
+    "request": "^2.88.2"
+  }
+}
